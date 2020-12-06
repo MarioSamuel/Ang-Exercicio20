@@ -1,0 +1,13 @@
+<!-- CREAR COMPONENTE COM NOMBRE USUARIO PRA UMA LISTA -->
+<h1>LISTA DE USUARIO:</h1>
+<ul>
+    <li *ngFor="let usuario of usuarios">
+      <ul>
+        <li> <strong> Id:</strong> {{usuario.id}}  </li>
+        <li> <strong> Name:</strong>{{usuario.name}} </li>
+        <li> <strong> Email:</strong> {{usuario.email}} </li>
+        <li> <strong> Address:</strong>{{usuario.address.street}}, {{usuario.address.suite}}, {{usuario.address.city}} </li>
+      </ul>
+    </li>
+</ul>
+

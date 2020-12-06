@@ -1,0 +1,9 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 4px;
+}
